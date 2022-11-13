@@ -30,7 +30,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
   <languages uuid="8095e6b3-e571-4551-a958-e5af22a2643c">
     <name>Русский</name>
     <synonym>
@@ -39,4 +39,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщийМодульФоновые</commonModules>
+  <documents>Document.УстановкаЦенТарифовОпераций</documents>
+  <enums>Enum.ВидыОпераций</enums>
+  <enums>Enum.ТипыГрузовыхМест</enums>
+  <reports>Report.РасчетДанных</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаФайлаДляРасчетаДанных</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеДляРасчета</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныТарифовОпераций</informationRegisters>
 </mdclass:Configuration>
