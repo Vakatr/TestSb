@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9031513-7f07-459d-a9dd-aa24c9ee4fce">
+  <producedTypes>
+    <selectionType typeId="ece70dcf-d52e-4cf3-9548-6c4a3ebf98ee" valueTypeId="7332532e-5a44-44ce-98f9-0764e6e1cf57"/>
+    <listType typeId="f42a395c-4463-4e7f-b2fa-505694574b4b" valueTypeId="2e9c9018-b738-4e23-b8f0-89a8211b9f19"/>
+    <managerType typeId="3a7c28c3-2e61-48a7-83a5-bd8c02702eae" valueTypeId="eedd958c-f5a7-4501-8da0-f316844c6121"/>
+    <recordSetType typeId="cf87dd04-c1a5-4827-aec8-b515491d9307" valueTypeId="5c974822-93e1-4a20-977e-552023ebbf01"/>
+    <recordKeyType typeId="04936352-770b-44d2-bc4e-23e4d4690119" valueTypeId="042713b0-9d00-4deb-b1c6-fdc467ac1978"/>
+    <recordType typeId="0de9b647-0f42-404d-b3fb-1d46a3920689" valueTypeId="737fdf12-7c9b-4994-a163-2b80ec57032c"/>
+    <recordManagerType typeId="d3f25904-1b7d-4289-b133-2267766ffb85" valueTypeId="aeb128ab-b0b4-4a4c-b562-96169ef0bd6d"/>
+  </producedTypes>
+  <name>ЦеныТарифовОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены тарифов операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="85b9f68f-53e5-436b-b9bc-619fd0f37398">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="03ca6e39-f803-48bd-af03-e583fa1947a5">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea5f59a7-49be-47ca-9aec-662bfc16a5ef">
+    <name>ТипГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип грузового места</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыГрузовыхМест</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0ab0e498-b13a-41dc-819e-c5cc3831819d">
+    <name>КоличествоОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="56048cd5-a4c2-43e7-aaae-de0b2b47ccda">
+    <name>КоличествоДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

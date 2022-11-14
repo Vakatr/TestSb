@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b0efb51-e268-432b-acde-e032f4ade698">
+  <producedTypes>
+    <objectType typeId="72d5d4a0-c666-49de-9b73-1ed1caf06915" valueTypeId="eddce2a0-dcab-42bc-8314-1449d4baff2c"/>
+    <managerType typeId="dc90b064-13ca-4cdf-8033-72cd50c986cb" valueTypeId="3eb0ef5a-6480-4eb1-a8f8-8495d244defa"/>
+  </producedTypes>
+  <name>ЗагрузкаФайлаДляРасчетаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка файла для расчета данных</value>
+  </synonym>
+  <comment>Обработка для загрузки из csv файла, анализ и запись данных в базу</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаФайлаДляРасчетаДанных.Form.Форма</defaultForm>
+  <tabularSections uuid="4471f8ea-1673-4695-8dd1-2822597ce646">
+    <producedTypes>
+      <objectType typeId="e8869f4e-fbc3-4c64-ab1e-4838d4ea19d6" valueTypeId="90292812-c7a8-40f9-bb5b-5284e7cb1c7f"/>
+      <rowType typeId="90f30a94-a0ce-4ea7-b47c-7412e9495cc0" valueTypeId="04029a68-5f35-4648-bb14-f4bb28bef56e"/>
+    </producedTypes>
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+  </tabularSections>
+  <forms uuid="c3a1b77a-3f7a-43ed-b4b5-89db0fe92d1a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

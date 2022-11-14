@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3ba9547-3ee8-4391-a432-3820a1bd8a8b">
+  <producedTypes>
+    <refType typeId="c506097b-badf-4c42-8c2d-3b22bc11dff0" valueTypeId="590cfd8a-6f68-4182-bd03-839edbde04e2"/>
+    <listType typeId="b8725a0d-dff5-4f1c-bf99-56f474f08786" valueTypeId="a8eae3f0-fe44-46ef-9a04-9dba8a88841c"/>
+    <managerType typeId="39082e00-2844-428d-8f95-f04640919796" valueTypeId="74210344-9ae1-4f85-8cf1-61ff672212b6"/>
+  </producedTypes>
+  <name>ВидыОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="633c2ae5-d5fe-4642-a06c-e6a7ed6e3fd7">
+    <name>Хранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e553387-a20e-4617-b6b2-bf10e8a855cc">
+    <name>Обработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

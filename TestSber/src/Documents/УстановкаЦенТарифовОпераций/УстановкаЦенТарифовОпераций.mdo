@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79548e3d-3c41-4ba1-9fc3-e2a4d41792de">
+  <producedTypes>
+    <objectType typeId="7330b814-5c45-45d2-80bf-93542663a30b" valueTypeId="06d3bf71-7b4e-487b-8272-bd403311a261"/>
+    <refType typeId="b024dcf6-50b6-4a3f-9a34-2a9f9eaa913f" valueTypeId="7fcb339c-c3da-4e52-afcf-2f5660a71b03"/>
+    <selectionType typeId="b93b8388-55b4-4a19-9eab-73b86703faed" valueTypeId="a8544653-51bb-455c-a320-be4bb5676900"/>
+    <listType typeId="2bc5c622-92aa-47c7-86c0-b04dc626696e" valueTypeId="c79b12e9-c785-4fc3-9af6-9e9116820a31"/>
+    <managerType typeId="3e91eeb9-d810-442c-b030-6d265154e247" valueTypeId="8037f367-e555-484d-9fc2-6ccd95e8b4b5"/>
+  </producedTypes>
+  <name>УстановкаЦенТарифовОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен тарифов операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦенТарифовОпераций.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенТарифовОпераций.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЦеныТарифовОпераций</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="da47bce7-3732-4515-aea4-b4b3d87fec2d">
+    <name>ЦенаДняХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена дня хранения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26bef936-58d3-4faf-9eb2-d52669abd6dd">
+    <name>ЦенаМГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена МГТ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b556f78c-4547-4d49-afef-a4de5c214930">
+    <name>ЦенаКГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена КГТ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="226ee3a4-c1e6-4b63-8c1f-2ce12706f735">
+    <name>ЦенаШины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена шины</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f66103fc-3836-4a94-8dec-50140728886e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="330e19c1-4d95-4436-bea9-5991f5e07a11">
+    <producedTypes>
+      <objectType typeId="fa55a4ef-6b18-4df3-8bf1-e807a5fd930a" valueTypeId="f16012cc-af62-4755-8afe-5133b2717132"/>
+      <rowType typeId="1c48638f-57d4-4f34-a0f6-9aeaaddf09ed" valueTypeId="0b714439-309c-48e9-b840-9816f714c882"/>
+    </producedTypes>
+    <name>ТарифОбработкиДляХаба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф обработки для хаба</value>
+    </synonym>
+    <attributes uuid="8cb64dcf-ca91-419a-a89d-aecbf4ed61f8">
+      <name>КоличествоОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d74a552-564a-4374-88a9-6ada3889303a">
+      <name>КоличествоДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee06dee8-265f-48b4-acd7-7f5b4d39f877">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
